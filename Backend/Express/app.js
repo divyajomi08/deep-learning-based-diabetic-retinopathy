@@ -13,7 +13,7 @@ var doctorRouter = require("./routes/doctor");
 var clinicRouter = require("./routes/clinic");
 var tagRouter = require("./routes/tag");
 
-
+//mongodb Connection
 var app = express();
 mongoose.connect(
   "mongodb+srv://user:pass@cluster0.txkap.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
