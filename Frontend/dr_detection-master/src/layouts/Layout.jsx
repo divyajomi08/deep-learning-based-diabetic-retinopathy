@@ -4,7 +4,7 @@ import Sidebar from '../components/Sidebar/Sidebar';
 import HeaderView from '../components/header/Header';
 
 const { Header, Content } = Layout;
-
+//dashboard
 const DashboardLayout = (props) => {
     return (
         <Layout >
